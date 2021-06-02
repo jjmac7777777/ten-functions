@@ -20,7 +20,7 @@
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)
 
-  describe('concat', () => {
+  describe('concat', () => {//
     it('should be a defined function', () => {
       expect(typeof concat).toBe('function');
     })
